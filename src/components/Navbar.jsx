@@ -10,20 +10,34 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[80px] bg-[#56AC8B]">
+    <div className="w-full h-[60px] bg-[#56AC8B]">
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
         <div>
           <h1 className="text-[var(--primary-blue)]">
-            <img src={Onesheet} alt="Onesheet Logo" className="w-[210px]" />
+            <img
+              src={Onesheet}
+              alt="Onesheet Logo"
+              className="w-[210px] hover:cursor-pointer"
+            />
           </h1>
         </div>
         <div className="hidden md:flex">
           <ul className="flex text-white items-center">
-            <li className="m-5">Features</li>
-            <li className="m-5">Why Us</li>
-            <li className="m-5">Pricing</li>
-            <li className="m-5">Companies</li>
-            <li className="m-5">Contact</li>
+            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              Features
+            </li>
+            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              Why Us
+            </li>
+            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              Pricing
+            </li>
+            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              Companies
+            </li>
+            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              Contact
+            </li>
             {/* <button className="ml-4">Start free trial</button> */}
           </ul>
         </div>
@@ -46,11 +60,21 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className="text-2xl">Features</li>
-            <li className="text-2xl">Why Us</li>
-            <li className="text-2xl">Pricing</li>
-            <li className="text-2xl">Companies</li>
-            <li className="text-2xl">Contact</li>
+            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+              Features
+            </li>
+            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+              Why Us
+            </li>
+            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+              Pricing
+            </li>
+            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+              Companies
+            </li>
+            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+              Contact
+            </li>
             {/* <button className="m-8">Start free trial</button> */}
           </ul>
         </div>
