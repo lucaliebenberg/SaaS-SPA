@@ -16,9 +16,9 @@ const Features = () => {
           <img
             src={Feature1}
             alt="Feature 1 icon"
-            className="h-[40px] w-[40px]"
+            className="h-[40px] w-[40px] ml-auto mr-auto mb-5"
           />
-          <h2 className="text-[#56AC8B] font-bold text-[28px] justify-center text-center">
+          <h2 className="text-[#56AC8B] font-bold text-[28px] justify-center text-center mb-4">
             Simple Accounting
           </h2>
           <p className="text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
@@ -31,9 +31,9 @@ const Features = () => {
             <img
               src={Feature2}
               alt="Feature 2 icon"
-              className="h-[40px] w-[40px]"
+              className="h-[40px] w-[40px] ml-auto mr-auto mb-5"
             />
-            <h2 className="text-[#56AC8B] font-bold text-[28px] justify-center text-center">
+            <h2 className="text-[#56AC8B] font-bold text-[28px] justify-center text-center mb-4">
               Powerful Features
             </h2>
             <p className="text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
@@ -46,12 +46,12 @@ const Features = () => {
             <img
               src={Feature3}
               alt="Feature 3 icon"
-              className="h-[40px] w-[40px]"
+              className="h-[40px] w-[40px] ml-auto mr-auto mb-5"
             />
-            <h2 className="text-[#56AC8B] font-bold text-[28px] justify-center text-center">
+            <h2 className="text-[#56AC8B] font-bold text-[28px] justify-center text-center mb-4">
               Expert AI Analytics
             </h2>
-            <p className="text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
+            <p className="text-[18px] text-[#ABABAB] justify-center text-center max-w-[260px]">
               Ability to streamline finances and gain valuable insights.
             </p>
           </div>
