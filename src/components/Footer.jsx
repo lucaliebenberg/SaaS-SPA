@@ -25,13 +25,37 @@ const Footer = () => {
         </button>
       </div>
       <div className="w-[90vw] border-stone-900"></div>
-      <div className="flex flex-row justify-between align-middle pt-[5rem]">
-        <p>&copy; Onesheet 2022. All rights reserved</p>
-        <div className="flex flex-row">
-          <AiFillFacebook size={20} />
-          <AiFillTwitterSquare size={20} />
-          <AiFillInstagram size={20} />
-          <AiFillLinkedin size={20} />
+      <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-[#CCC]">
+        <p className="ml-10">&copy; Onesheet 2022. All rights reserved</p>
+        <div className="flex flex-row mr-8">
+          <a
+            href="https://www.facebook.com"
+            target={"_blank"}
+            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer"
+          >
+            <AiFillFacebook size={24} className="mr-3" />
+          </a>
+          <a
+            href="https://www.twitter.com"
+            target={"_blank"}
+            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer"
+          >
+            <AiFillTwitterSquare size={24} className="mr-3" />
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target={"_blank"}
+            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer"
+          >
+            <AiFillInstagram size={24} className="mr-3" />
+          </a>
+          <a
+            href="https://www.linkedin.com"
+            target={"_blank"}
+            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer"
+          >
+            <AiFillLinkedin size={24} />
+          </a>
         </div>
       </div>
     </div>
