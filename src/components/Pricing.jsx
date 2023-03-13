@@ -14,7 +14,7 @@ const Pricing = () => {
           Choose the package that aligns with your business needs
         </p>
       </div>
-      <div className="flex flex-row justify-between align-middle ml-auto mr-auto">
+      <div className="w-[70vw] flex flex-row justify-around align-middle ml-auto mr-auto pt-4">
         <img
           src={Pricing2}
           alt="Pricing option 1"
