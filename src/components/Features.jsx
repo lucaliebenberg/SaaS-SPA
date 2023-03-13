@@ -6,7 +6,7 @@ import Feature3 from "../assets/Icon-2.png";
 
 const Features = () => {
   return (
-    <div className="w-full h-[90vh]">
+    <div className="w-full h-[100vh]">
       <h1 className="text-[#8C8C8C] font-bold text-[40px] p-[5rem]">
         Our Features
       </h1>
