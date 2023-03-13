@@ -1,5 +1,12 @@
 import React from "react";
 
+import {
+  AiFillFacebook,
+  AiFillTwitterSquare,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
+
 const Footer = () => {
   return (
     <div className="w-full h-[40vh] bg-white">
@@ -16,6 +23,16 @@ const Footer = () => {
         <button className="w-[134px] h-[40px] rounded-[5px] bg-[#55AA8A] text-white mt-5 ml-auto mr-auto hover:scale-105">
           Get in touch
         </button>
+      </div>
+      <div className="w-[90vw] border-stone-900"></div>
+      <div className="flex flex-row justify-between align-middle pt-[5rem]">
+        <p>&copy; Onesheet 2022. All rights reserved</p>
+        <div className="flex flex-row">
+          <AiFillFacebook size={20} />
+          <AiFillTwitterSquare size={20} />
+          <AiFillInstagram size={20} />
+          <AiFillLinkedin size={20} />
+        </div>
       </div>
     </div>
   );
