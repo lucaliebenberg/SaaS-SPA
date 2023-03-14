@@ -26,7 +26,9 @@ const Footer = () => {
       </div>
       <div className="w-[90vw] border-stone-900"></div>
       <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-[#CCC]">
-        <p className="ml-10">&copy; Onesheet 2022. All rights reserved</p>
+        <p className="text-[12px] pt-1 ml-10">
+          &copy; Onesheet 2022. All rights reserved
+        </p>
         <div className="flex flex-row mr-8">
           <a
             href="https://www.facebook.com"
