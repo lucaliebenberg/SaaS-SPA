@@ -11,12 +11,12 @@ const Features = () => {
         Our Features
       </h1>
 
-      <div className="flex flex-col p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
-        <div className="flex flex-col mr-2 mt-14">
+      <div className="flex flex-col mt-0 pt-0 p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
+        <div className="flex flex-col mr-2">
           <img
             src={Feature1}
             alt="Feature 1 icon"
-            className="h-[40px] w-[40px] ml-auto mr-auto mb-5"
+            className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
           />
           <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
             Simple Accounting
@@ -31,7 +31,7 @@ const Features = () => {
             <img
               src={Feature2}
               alt="Feature 2 icon"
-              className="h-[40px] w-[40px] ml-auto mr-auto mb-5"
+              className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
             <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
               Powerful Features
@@ -46,7 +46,7 @@ const Features = () => {
             <img
               src={Feature3}
               alt="Feature 3 icon"
-              className="h-[40px] w-[40px] ml-auto mr-auto mb-5"
+              className="h-[40px] w-[40px] ml-auto mr-auto mb-10"
             />
             <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
               Expert AI Analytics
