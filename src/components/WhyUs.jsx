@@ -4,10 +4,10 @@ import Product2 from "../assets/product2.png";
 
 const WhyUs = () => {
   return (
-    <div className="md:h-[85vh] w-full h-[100vh] bg-[#56AC8B] overflow-clip">
+    <div className="sm:h-[80vh] md:h-[85vh] w-full h-[100vh] bg-[#56AC8B] overflow-clip">
       <div className="p-[5rem]">
         <h1 className="text-[40px] font-bold text-white">Why Us</h1>
-        <p className="md:text-[20px] max-w-[1141px] text-[23px] text-[#FDFDFD] pt-[3rem] font-light">
+        <p className="sm:text-[18px] md:text-[20px] max-w-[1141px] text-[23px] text-[#FDFDFD] pt-[3rem] font-light">
           Onesheet is an intuitive online accounting software that provides
           users with an easy way to track financial information, manage
           expenses, and generate detailed reports with expert AI analytics.

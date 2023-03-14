@@ -12,7 +12,7 @@ const Features = () => {
       </h1>
 
       <div className="flex flex-row justify-between  p-[5rem] h-full">
-        <div className="flex flex-col">
+        <div className="flex flex-col mr-2">
           <img
             src={Feature1}
             alt="Feature 1 icon"
@@ -22,7 +22,7 @@ const Features = () => {
             Simple Accounting
           </h2>
           <p className="md:text-[14px] text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
-            Manage expenses, and generate detailed reports with a few clicks.
+            Manage expenses, and generate detailed reports with a few clicks
           </p>
         </div>
 
@@ -42,7 +42,7 @@ const Features = () => {
           </div>
         </div>
         <div>
-          <div className="flex flex-col">
+          <div className="flex flex-col ml-2">
             <img
               src={Feature3}
               alt="Feature 3 icon"
@@ -52,7 +52,7 @@ const Features = () => {
               Expert AI Analytics
             </h2>
             <p className="md:text-[14px] text-[18px] text-[#ABABAB] justify-center text-center max-w-[260px]">
-              Ability to streamline finances and gain valuable insights.
+              Ability to streamline finances and gain valuable insights
             </p>
           </div>
         </div>

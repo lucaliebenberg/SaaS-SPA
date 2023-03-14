@@ -8,15 +8,15 @@ import Company5 from "../assets/company5.png";
 
 const Companies = () => {
   return (
-    <div className="md:h-[80vh] w-full h-[100vh] bg-white flex flex-col justify-center">
-      <h1 className="md:text-[32px] text-[#8C8C8C] text-[40px] font-bold text-center ml-auto pt-[3rem] mt-10 mr-auto">
+    <div className="sm:h-[90vh] md:h-[80vh] w-full h-[100vh] bg-white flex flex-col justify-center">
+      <h1 className="sm:text-[28px] md:text-[32px] text-[#8C8C8C] text-[40px] font-bold text-center ml-auto pt-[3rem] mt-10 mr-auto">
         Partners with leading companies worldwide
       </h1>
-      <div className="md:flex-wrap  flex flex-row justify-between align-middle w-[95vw] m-auto">
+      <div className="sm:flex-wrap flex flex-row justify-between align-middle w-[95vw] m-auto">
         <img
           src={Company1}
           alt="Slack logo"
-          className="md:h-[40px] md:mb-12 h-[40px]"
+          className="sm:mb-12 md:h-[40px] md:mb-12 h-[40px]"
         />
         <img src={Company2} alt="Envato logo" className="h-[40px] w-auto" />
         <img src={Company3} alt="USA Today logo" className="h-[40px] w-auto" />
