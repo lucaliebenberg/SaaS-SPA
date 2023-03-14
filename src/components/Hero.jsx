@@ -11,11 +11,11 @@ const Hero = () => {
             We help you to grow your business to the next level
           </h1>
           <div className="flex flex-row">
-            <button className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] mr-3 lg:w-[141px] lg:h-[50px] ">
-              Get Started
-            </button>
-            <button className="w-[115px] h-41px] rounded-[5px] bg-[#56AC8B] border-white border-2 text-white ">
+            <button className="w-[115px] h-[41px] rounded-[5px] bg-[#56AC8B] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px]">
               Learn More
+            </button>
+            <button className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px]">
+              Get Started
             </button>
           </div>
         </div>
