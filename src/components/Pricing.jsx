@@ -18,12 +18,12 @@ const Pricing = () => {
         <img
           src={Pricing2}
           alt="Pricing option 1"
-          className="h-[520px] w-auto hover:cursor-pointer hover:scale-105"
+          className="h-auto w-auto hover:cursor-pointer hover:scale-105"
         />
         <img
           src={Pricing1}
           alt="Pricing option 2"
-          className="h-[520px] w-auto mt-5 hover:cursor-pointer hover:scale-105"
+          className="h-auto w-auto mt-5 hover:cursor-pointer hover:scale-105"
         />
       </div>
     </div>
