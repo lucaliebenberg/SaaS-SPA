@@ -11,8 +11,8 @@ const Features = () => {
         Our Features
       </h1>
 
-      <div className="flex flex-col p-[5rem] h-full md:flex-row md:justify-between">
-        <div className="flex flex-col mr-2">
+      <div className="flex flex-col p-[5rem] h-full md:flex-row md:justify-between lg:mt-auto lg:mb-auto">
+        <div className="flex flex-col mr-2 mt-14">
           <img
             src={Feature1}
             alt="Feature 1 icon"
