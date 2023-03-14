@@ -17,7 +17,7 @@ const Footer = () => {
         <h1 className="text-[#55AA8A] font-semibold text-[28px] text-center">
           Let's work together
         </h1>
-        <p className="max-w-[384px] text-black text-center justify-center text-[16px] mt-2 ml-auto mr-auto">
+        <p className="mt-5 max-w-[300px] md:max-w-[384px] lg:max-w-[384px] text-black text-center justify-center text-[16px] ml-auto mr-auto">
           If you’re looking for a kick-ass software company, we’re here to help!
         </p>
         <button className="w-[134px] h-[40px] rounded-[5px] bg-[#55AA8A] text-white mt-5 ml-auto mr-auto hover:scale-105">
@@ -26,8 +26,10 @@ const Footer = () => {
       </div>
       <div className="w-[90vw] border-stone-900"></div>
       <div className="flex flex-row justify-between align-middle pt-[6rem] pb-8 text-[#CCC]">
-        <p className="text-[12px] pt-1 ml-10">2022 &copy; Onesheet Solutions</p>
-        <div className="flex flex-row mr-8">
+        <p className="text-[12px] pt-1 ml-4 lg:ml-10">
+          2022 &copy; Onesheet Solutions
+        </p>
+        <div className="flex flex-row mr-4 lg:mr-8">
           <a
             href="https://www.facebook.com"
             target={"_blank"}
