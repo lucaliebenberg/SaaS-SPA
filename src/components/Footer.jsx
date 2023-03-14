@@ -21,7 +21,13 @@ const Footer = () => {
           If you’re looking for a kick-ass software company, we’re here to help!
         </p>
         <button className="w-[134px] h-[40px] rounded-[5px] bg-[#55AA8A] text-white mt-5 ml-auto mr-auto hover:scale-105">
-          Get in touch
+          <a
+            href="mailto:onesheetsolutions@gmail.com"
+            target={"_blank"}
+            className=""
+          >
+            Get in touch
+          </a>
         </button>
       </div>
       <div className="w-[90vw] border-stone-900"></div>
