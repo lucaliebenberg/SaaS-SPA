@@ -19,7 +19,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="ml-[5rem] mt-[]">
+        <div className="sm: hidden md:hidden ml-[5rem] ">
           <img src={Product1} alt="" className="w-full h-full" />
         </div>
       </div>
