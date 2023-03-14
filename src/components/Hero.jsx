@@ -4,7 +4,7 @@ import Product1 from "../assets/product1.png";
 
 const Hero = () => {
   return (
-    <div id="#hero" className="w-full h-[92vh] bg-[#56AC8B]">
+    <div id="hero" className="w-full h-[92vh] bg-[#56AC8B]">
       <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
         <div className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8">
           <h1 className="text-[38px] max-w-[220px] lg:max-w-[508px] text-white font-bold text-left leading-tight mb-8 lg:text-[52px]">

@@ -23,21 +23,31 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
           <ul className="flex text-white items-center">
-            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
-              Features
-            </li>
-            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
-              Why Us
-            </li>
-            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
-              Pricing
-            </li>
-            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
-              Companies
-            </li>
-            <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
-              Contact
-            </li>
+            <a href="#features">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+                Features
+              </li>
+            </a>
+            <a href="#whyus">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+                Why Us
+              </li>
+            </a>
+            <a href="#pricing">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+                Pricing
+              </li>
+            </a>
+            <a href="#companies">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+                Companies
+              </li>
+            </a>
+            <a href="#footer">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+                Contact
+              </li>
+            </a>
             {/* <button className="ml-4">Start free trial</button> */}
           </ul>
         </div>
@@ -60,21 +70,32 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D]">
-              Features
-            </li>
-            <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
-              Why Us
-            </li>
-            <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
-              Pricing
-            </li>
-            <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
-              Companies
-            </li>
-            <li className="text-2xl pt-5 pb-10 hover:cursor-pointer hover:text-[#00FF9D]">
-              Contact
-            </li>
+            <a href="#features">
+              <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D]">
+                Features
+              </li>
+            </a>
+
+            <a href="#whyus">
+              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
+                Why Us
+              </li>
+            </a>
+            <a href="#pricing">
+              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
+                Pricing
+              </li>
+            </a>
+            <a href="#companies">
+              <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
+                Companies
+              </li>
+            </a>
+            <a href="#footer">
+              <li className="text-2xl pt-5 pb-10 hover:cursor-pointer hover:text-[#00FF9D]">
+                Contact
+              </li>
+            </a>
             {/* <button className="m-8">Start free trial</button> */}
           </ul>
         </div>

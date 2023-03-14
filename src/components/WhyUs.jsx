@@ -4,7 +4,7 @@ import Product2 from "../assets/product2.png";
 
 const WhyUs = () => {
   return (
-    <div id="#whyus" className=" h-auto w-full bg-[#56AC8B] overflow-clip">
+    <div id="whyus" className=" h-auto w-full bg-[#56AC8B] overflow-clip">
       <div className="p-[4rem] lg:p-[5rem]">
         <h1 className="text-[40px] text-center font-bold text-white lg:text-left">
           Why Us

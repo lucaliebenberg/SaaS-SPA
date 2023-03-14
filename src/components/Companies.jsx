@@ -9,7 +9,7 @@ import Company5 from "../assets/company5.png";
 const Companies = () => {
   return (
     <div
-      id="#companies"
+      id="companies"
       className="h-auto w-full bg-white flex flex-col justify-center pb-[3rem]"
     >
       <h1 className="text-[#8C8C8C] text-[25px] font-bold text-center ml-auto pt-[3rem] mt-10 mb-[6rem] mr-auto">
