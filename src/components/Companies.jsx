@@ -16,27 +16,27 @@ const Companies = () => {
         <img
           src={Company1}
           alt="Slack logo"
-          className="h-[40px] w-[150px] mb-10"
+          className="h-[40px] w-[150px] mb-[5rem]"
         />
         <img
           src={Company2}
           alt="Envato logo"
-          className="h-[40px] w-[150px] mb-10"
+          className="h-[40px] w-[150px] mb-[5rem]"
         />
         <img
           src={Company3}
           alt="USA Today logo"
-          className="h-[40px] w-[150px] mb-10"
+          className="h-[40px] w-[150px] mb-[5rem]"
         />
         <img
           src={Company4}
           alt="Forbes logo"
-          className="h-[40px] w-[150px] mb-10"
+          className="h-[40px] w-[150px] mb-[5rem]"
         />
         <img
           src={Company5}
           alt="GeekWire logo"
-          className="h-[40px] w-[150px] mb-10"
+          className="h-[40px] w-[150px] mb-[5rem]"
         />
       </div>
     </div>
