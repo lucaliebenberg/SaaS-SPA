@@ -5,7 +5,7 @@ import Pricing2 from "../assets/pricing2.png";
 
 const Pricing = () => {
   return (
-    <div className="h-auto w-full bg-[#56AC8B]">
+    <div id="#pricing" className="h-auto w-full bg-[#56AC8B]">
       <div>
         <h1 className="text-[40px] font-bold text-center pt-8 text-white">
           Simple pricing
