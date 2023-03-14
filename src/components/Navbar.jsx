@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full h-[60px] bg-[#56AC8B]">
-      <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
+      <div className="max-w-[1240px] mx-auto px-2 flex justify-between items-center h-full">
         <div>
           <h1 className="text-[var(--primary-blue)]">
             <img
