@@ -55,24 +55,24 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "w-full bg-[#56AC8B] text-white absolute top-[90px] left-0 flex justify-center text-center"
+              ? "w-[95vw] rounded-md bg-white text-[#56AC8B] absolute top-[50px] left-0 flex justify-center text-center ml-3 mt-2"
               : "absolute left-[-100%]"
           }
         >
           <ul>
-            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+            <li className="text-2xl pt-10 hover:cursor-pointer hover:text-[#00FF9D]">
               Features
             </li>
-            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+            <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
               Why Us
             </li>
-            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+            <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
               Pricing
             </li>
-            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+            <li className="text-2xl pt-7 hover:cursor-pointer hover:text-[#00FF9D]">
               Companies
             </li>
-            <li className="text-2xl hover:cursor-pointer hover:text-[#00FF9D]">
+            <li className="text-2xl pt-5 pb-10 hover:cursor-pointer hover:text-[#00FF9D]">
               Contact
             </li>
             {/* <button className="m-8">Start free trial</button> */}
