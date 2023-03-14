@@ -12,31 +12,31 @@ const Companies = () => {
       <h1 className="text-[#8C8C8C] text-[25px] font-bold text-center ml-auto pt-[3rem] mt-10 mb-[6rem] mr-auto">
         Partners with leading companies worldwide
       </h1>
-      <div className="flex flex-col justify-center align-middle w-auto ml-auto mr-auto">
+      <div className="flex flex-col justify-center align-middle w-auto ml-auto mr-auto lg:flex-row lg:justify-between">
         <img
           src={Company1}
           alt="Slack logo"
-          className="h-[40px] w-[150px] mb-[5rem]"
+          className="h-[40px] w-[150px] mb-[5rem] lg:mr-14"
         />
         <img
           src={Company2}
           alt="Envato logo"
-          className="h-[40px] w-[150px] mb-[5rem]"
+          className="h-[40px] w-[150px] mb-[5rem] lg:mr-14"
         />
         <img
           src={Company3}
           alt="USA Today logo"
-          className="h-[40px] w-[150px] mb-[5rem]"
+          className="h-[40px] w-[150px] mb-[5rem] lg:mr-14"
         />
         <img
           src={Company4}
           alt="Forbes logo"
-          className="h-[40px] w-[150px] mb-[5rem]"
+          className="h-[40px] w-[150px] mb-[5rem] lg:mr-14"
         />
         <img
           src={Company5}
           alt="GeekWire logo"
-          className="h-[40px] w-[150px] mb-[5rem]"
+          className="h-[40px] w-[150px] mb-[5rem] lg:mr-14"
         />
       </div>
     </div>
