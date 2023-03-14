@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="w-full h-[92vh] bg-[#56AC8B]">
       <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
         <div className="flex flex-col pl-[4rem] lg:pl-[6rem] lg:pt-8">
-          <h1 className="text-[38px] max-w-[220px] text-white font-bold text-left leading-tight mb-8 lg:text-[52px]">
+          <h1 className="text-[38px] max-w-[220px] lg:max-w-[508px] text-white font-bold text-left leading-tight mb-8 lg:text-[52px]">
             We help you to grow your business to the next level
           </h1>
           <div className="flex flex-row">
@@ -19,7 +19,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="sm: hidden md:hidden ml-[5rem] ">
+        <div className="sm: hidden md:hidden lg:inline-flex ml-[5rem] ">
           <img src={Product1} alt="" className="w-full h-full" />
         </div>
       </div>
