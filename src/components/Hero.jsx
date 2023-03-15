@@ -1,6 +1,6 @@
 import React from "react";
-
 import Product1 from "../assets/product1.png";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
