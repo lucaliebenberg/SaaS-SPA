@@ -25,22 +25,26 @@ const Hero = () => {
             We help you to grow your business to the next level
           </motion.h1>
           <div className="flex flex-row">
-            <motion.button
-              initial={{ x: "-200px" }}
-              animate={{ x: 0 }}
-              transition={{ duration: 0.8 }}
-              className="w-[115px] h-[41px] rounded-[5px] bg-[#56AC8B] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
-            >
-              <a href="#features">Learn More</a>
-            </motion.button>
-            <motion.button
-              initial={{ x: "-200px" }}
-              animate={{ x: 0 }}
-              transition={{ duration: 0.5 }}
-              className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
-            >
-              <a href="#pricing">Get Started</a>
-            </motion.button>
+            <div className="hover:scale-105">
+              <motion.button
+                initial={{ x: "-200px" }}
+                animate={{ x: 0 }}
+                transition={{ duration: 0.8 }}
+                className="w-[115px] h-[41px] rounded-[5px] bg-[#56AC8B] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
+              >
+                <a href="#features">Learn More</a>
+              </motion.button>
+            </div>
+            <div className="hover:scale-105">
+              <motion.button
+                initial={{ x: "-200px" }}
+                animate={{ x: 0 }}
+                transition={{ duration: 0.5 }}
+                className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
+              >
+                <a href="#pricing">Get Started</a>
+              </motion.button>
+            </div>
           </div>
         </motion.div>
         <motion.div
