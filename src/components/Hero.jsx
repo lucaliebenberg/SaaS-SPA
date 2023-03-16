@@ -37,7 +37,7 @@ const Hero = () => {
               initial={{ x: "-200px" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5 }}
-              className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
+              className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
             >
               Get Started
             </motion.button>
