@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Product1 from "../assets/product1.png";
-import { motion } from "framer-motion";
-
-// import { slideIn, fadeIn, textVariant } from "../utils/motion";
+import { motion, useAnimation } from "framer-motion";
 
 const Hero = () => {
+  const controls = useAnimation();
+
+  useEffect(() => {
+    controls.start({
+      y: [0, 20, 0],
+      transition: { duration: 8, repeat: Infinity },
+    });
+  }, []);
+
   return (
     <motion.div id="hero" className="w-full h-[92vh] bg-[#56AC8B]">
       <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
@@ -22,7 +29,7 @@ const Hero = () => {
               initial={{ x: "-200px" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.8 }}
-              className="w-[115px] h-[41px] rounded-[5px] bg-[#56AC8B] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer"
+              className="w-[115px] h-[41px] rounded-[5px] bg-[#56AC8B] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
             >
               Learn More
             </motion.button>
@@ -30,7 +37,7 @@ const Hero = () => {
               initial={{ x: "-200px" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5 }}
-              className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer"
+              className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
             >
               Get Started
             </motion.button>
@@ -42,7 +49,12 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="sm: hidden md:hidden lg:inline-flex ml-[5rem] "
         >
-          <img src={Product1} alt="" className="w-full h-full" />
+          <motion.img
+            animate={controls}
+            src={Product1}
+            alt="Onesheet Product"
+            className="w-full h-full"
+          />
         </motion.div>
       </div>
     </motion.div>
