@@ -34,7 +34,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Features
               </li>
             </motion.a>
@@ -44,7 +44,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Why Us
               </li>
             </motion.a>
@@ -54,7 +54,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.7 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Pricing
               </li>
             </motion.a>
@@ -64,7 +64,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Companies
               </li>
             </motion.a>
@@ -74,7 +74,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               transition={{ duration: 0.9 }}
             >
-              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
+              <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Contact
               </li>
             </motion.a>
