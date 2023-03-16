@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 import Onesheet from "../assets/onesheetLogo.png";
 
@@ -12,7 +13,11 @@ const Navbar = () => {
   return (
     <div className="w-full h-[60px] bg-[#56AC8B]">
       <div className="max-w-[1240px] mx-auto px-2 flex justify-between items-center h-full">
-        <div>
+        <motion.div
+          initial={{ x: "-200px" }}
+          animate={{ x: 0 }}
+          transition={{ duration: 2 }}
+        >
           <h1 className="text-[var(--primary-blue)]">
             <img
               src={Onesheet}
@@ -20,46 +25,77 @@ const Navbar = () => {
               className="w-[210px] hover:cursor-pointer"
             />
           </h1>
-        </div>
+        </motion.div>
         <div className="hidden md:flex">
           <ul className="flex text-white items-center">
-            <a href="#features">
+            <motion.a
+              href="#features"
+              initial={{ x: "500px" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 1 }}
+            >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
                 Features
               </li>
-            </a>
-            <a href="#whyus">
+            </motion.a>
+            <motion.a
+              href="#whyus"
+              initial={{ x: "500px" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 1.5 }}
+            >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
                 Why Us
               </li>
-            </a>
-            <a href="#pricing">
+            </motion.a>
+            <motion.a
+              href="#pricing"
+              initial={{ x: "500px" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 2 }}
+            >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
                 Pricing
               </li>
-            </a>
-            <a href="#companies">
+            </motion.a>
+            <motion.a
+              href="#companies"
+              initial={{ x: "500px" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 2.5 }}
+            >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
                 Companies
               </li>
-            </a>
-            <a href="#footer">
+            </motion.a>
+            <motion.a
+              href="#footer"
+              initial={{ x: "500px" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 3 }}
+            >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D]">
                 Contact
               </li>
-            </a>
+            </motion.a>
             {/* <button className="ml-4">Start free trial</button> */}
           </ul>
         </div>
 
         {/* Hamburger Menu */}
-        <div className="block md:hidden" onClick={handleNav}>
+        <motion.div
+          initial={{ y: "-200px" }}
+          animate={{ y: 0 }}
+          transition={{ duration: 1 }}
+          className="block md:hidden"
+          onClick={handleNav}
+        >
           {nav ? (
             <AiOutlineClose size={30} className="text-white" />
           ) : (
             <AiOutlineMenu size={30} className="text-white" />
           )}
-        </div>
+        </motion.div>
 
         {/* Mobile Menu */}
         <div
