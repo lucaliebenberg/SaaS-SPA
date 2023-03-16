@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div id="footer" className="w-full h-[40vh] bg-white">
+    <div id="footer" className="w-full h-[40vh] bg-white" data-aos="fade-in">
       <div className="flex flex-col justify-center mt-[5rem]">
         <p className="text-[#909090] font-semibold text-[12px] text-center">
           LIKE WHAT YOU SEE?

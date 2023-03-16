@@ -4,9 +4,20 @@ import Feature1 from "../assets/Icon.png";
 import Feature2 from "../assets/Icon-1.png";
 import Feature3 from "../assets/Icon-2.png";
 
+import { motion } from "framer-motion";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+// initialize AOS
+AOS.init();
+
 const Features = () => {
   return (
-    <div id="features" className="h-auto w-full lg:h-[100vh]">
+    <div
+      data-aos="fade-in"
+      id="features"
+      className="h-auto w-full lg:h-[100vh]"
+    >
       <h1 className="text-[#8C8C8C] text-center font-bold text-[30px] p-[5rem] lg:text-[40px] lg:text-left">
         Our Features
       </h1>

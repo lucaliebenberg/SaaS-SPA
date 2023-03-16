@@ -3,6 +3,11 @@ import React from "react";
 import Pricing1 from "../assets/pricing1.png";
 import Pricing2 from "../assets/pricing2.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+// initialize AOS
+AOS.init();
+
 const Pricing = () => {
   return (
     <div id="pricing" className="h-auto w-full bg-[#56AC8B]">
@@ -19,11 +24,13 @@ const Pricing = () => {
           src={Pricing2}
           alt="Pricing option 1"
           className="h-auto w-auto hover:cursor-pointer hover:scale-105"
+          data-aos="fade-right"
         />
         <img
           src={Pricing1}
           alt="Pricing option 2"
           className="h-auto w-auto mt-5 hover:cursor-pointer hover:scale-105"
+          data-aos="fade-left"
         />
       </div>
     </div>

@@ -2,10 +2,15 @@ import React from "react";
 
 import Product2 from "../assets/product2.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+// initialize AOS
+AOS.init();
+
 const WhyUs = () => {
   return (
     <div id="whyus" className=" h-auto w-full bg-[#56AC8B] overflow-clip">
-      <div className="p-[4rem] lg:p-[5rem]">
+      <div className="p-[4rem] lg:p-[5rem]" data-aos="fade-right">
         <h1 className="text-[40px] text-center font-bold text-white lg:text-left">
           Why Us
         </h1>
@@ -19,7 +24,10 @@ const WhyUs = () => {
           processing and being highly configurable.
         </p>
       </div>
-      <div className="md:mt-[1rem] flex justify-center align-middle ml-auto mr-auto pt-[2rem]">
+      <div
+        className="md:mt-[1rem] flex justify-center align-middle ml-auto mr-auto pt-[2rem]"
+        data-aos="fade-right"
+      >
         <img src={Product2} alt="Onesheet product 2" />
       </div>
     </div>

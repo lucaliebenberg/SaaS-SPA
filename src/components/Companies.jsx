@@ -6,11 +6,17 @@ import Company3 from "../assets/company3.png";
 import Company4 from "../assets/company4.png";
 import Company5 from "../assets/company5.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+// initialize AOS
+AOS.init();
+
 const Companies = () => {
   return (
     <div
       id="companies"
       className="h-auto w-full bg-white flex flex-col justify-center pb-[3rem]"
+      data-aos="fade-down"
     >
       <h1 className="text-[#8C8C8C] text-[25px] font-bold text-center ml-auto pt-[3rem] mt-10 mb-[6rem] mr-auto">
         Partners with leading companies worldwide
