@@ -14,7 +14,7 @@ const WhyUs = () => {
         <h1 className="text-[40px] text-center font-bold text-white lg:text-left">
           Why Us
         </h1>
-        <p className="text-[18px] w-auto max-w-[300px] md:text-[20px] lg:max-w-[1141px] lg:text-[23px] text-[#FDFDFD] pt-[3rem] font-light">
+        <p className="text-[18px] w-auto max-w-[300px] md:text-[20px] md:max-w-[500px] lg:max-w-[1141px] lg:text-[23px] text-[#FDFDFD] pt-[3rem] font-light">
           Onesheet is an intuitive online accounting software that provides
           users with an easy way to track financial information, manage
           expenses, and generate detailed reports with expert AI analytics.

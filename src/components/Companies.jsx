@@ -16,7 +16,7 @@ const Companies = () => {
     <div
       id="companies"
       className="h-auto w-full bg-white flex flex-col justify-center pb-[3rem]"
-      data-aos="fade-down"
+      data-aos="fade-left"
     >
       <h1 className="text-[#8C8C8C] text-[25px] font-bold text-center ml-auto pt-[3rem] mt-10 mb-[6rem] mr-auto">
         Partners with leading companies worldwide

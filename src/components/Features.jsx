@@ -32,7 +32,7 @@ const Features = () => {
           <h2 className="text-[20px] md:text-[22px] text-[#56AC8B] font-bold lg:text-[28px] justify-center text-center mb-4">
             Simple Accounting
           </h2>
-          <p className="text-[13px] md:text-[14px] lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
+          <p className="text-[13px] md:text-[14px] md:text-center lg:text-[18px] text-[#ABABAB] justify-center text-center max-w-[277px]">
             Manage expenses, and generate detailed reports with a few clicks
           </p>
         </div>
