@@ -28,7 +28,11 @@ const WhyUs = () => {
         className="md:mt-[1rem] flex justify-center align-middle ml-auto mr-auto pt-[2rem]"
         data-aos="fade-right"
       >
-        <img src={Product2} alt="Onesheet product 2" />
+        <img
+          src={Product2}
+          alt="Onesheet product 2"
+          className="hover:scale-105 hover:cursor-pointer"
+        />
       </div>
     </div>
   );
