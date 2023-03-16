@@ -2,11 +2,21 @@ import React from "react";
 import Product1 from "../assets/product1.png";
 import { motion } from "framer-motion";
 
+import { slideIn, fadeIn, textVariant } from "../utils/motion";
+
 const Hero = () => {
   return (
-    <div id="hero" className="w-full h-[92vh] bg-[#56AC8B]">
+    <motion.div
+      initial="initial"
+      animate="animate"
+      id="hero"
+      className="w-full h-[92vh] bg-[#56AC8B]"
+    >
       <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
-        <div className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8">
+        <motion.div
+          variants={fadeIn("", "", 0.1, 1)}
+          className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8"
+        >
           <h1 className="text-[38px] max-w-[220px] lg:max-w-[508px] text-white font-bold text-left leading-tight mb-8 lg:text-[52px]">
             We help you to grow your business to the next level
           </h1>
@@ -18,12 +28,15 @@ const Hero = () => {
               Get Started
             </button>
           </div>
-        </div>
-        <div className="sm: hidden md:hidden lg:inline-flex ml-[5rem] ">
+        </motion.div>
+        <motion.div
+          variants={slideIn("right", "tween", 0.2, 1)}
+          className="sm: hidden md:hidden lg:inline-flex ml-[5rem] "
+        >
           <img src={Product1} alt="" className="w-full h-full" />
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
