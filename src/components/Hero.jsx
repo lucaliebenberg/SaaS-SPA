@@ -8,7 +8,7 @@ const Hero = () => {
   useEffect(() => {
     controls.start({
       y: [0, 20, 0],
-      transition: { duration: 8, repeat: Infinity },
+      transition: { duration: 7, repeat: Infinity },
     });
   }, []);
 
@@ -31,7 +31,7 @@ const Hero = () => {
               transition={{ duration: 0.8 }}
               className="w-[115px] h-[41px] rounded-[5px] bg-[#56AC8B] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:scale-105"
             >
-              Learn More
+              <a href="#features">Learn More</a>
             </motion.button>
             <motion.button
               initial={{ x: "-200px" }}
@@ -39,7 +39,7 @@ const Hero = () => {
               transition={{ duration: 0.5 }}
               className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer lg:hover:cursor-pointer lg:hover:scale-105"
             >
-              Get Started
+              <a href="#pricing">Get Started</a>
             </motion.button>
           </div>
         </motion.div>

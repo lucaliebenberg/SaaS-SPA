@@ -20,18 +20,22 @@ const Pricing = () => {
         </p>
       </div>
       <div className="flex flex-col w-[70vw] md:flex-row justify-around ml-auto mr-auto pt-[3rem] pb-8 lg:align-middle">
-        <img
-          src={Pricing2}
-          alt="Pricing option 1"
-          className="h-auto w-auto hover:cursor-pointer hover:scale-105"
-          data-aos="fade-right"
-        />
-        <img
-          src={Pricing1}
-          alt="Pricing option 2"
-          className="h-auto w-auto mt-5 hover:cursor-pointer hover:scale-105"
-          data-aos="fade-left"
-        />
+        <div className="hover:scale-105">
+          <img
+            src={Pricing2}
+            alt="Pricing option 1"
+            className="h-auto w-auto hover:cursor-pointer hover:scale-105"
+            data-aos="fade-right"
+          />
+        </div>
+        <div className="hover:scale-105">
+          <img
+            src={Pricing1}
+            alt="Pricing option 2"
+            className="h-auto w-auto mt-5 hover:cursor-pointer hover:scale-105"
+            data-aos="fade-left"
+          />
+        </div>
       </div>
     </div>
   );
