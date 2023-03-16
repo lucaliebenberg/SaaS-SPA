@@ -21,7 +21,7 @@ const Hero = () => {
             <motion.button
               initial={{ x: "-200px" }}
               animate={{ x: 0 }}
-              transition={{ duration: 3 }}
+              transition={{ duration: 0.8 }}
               className="w-[115px] h-[41px] rounded-[5px] bg-[#56AC8B] mr-3 border-white border-2 text-white  lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer"
             >
               Learn More
@@ -29,7 +29,7 @@ const Hero = () => {
             <motion.button
               initial={{ x: "-200px" }}
               animate={{ x: 0 }}
-              transition={{ duration: 2 }}
+              transition={{ duration: 0.5 }}
               className="w-[115px] h-[41px] rounded-[5px] bg-white text-[#56AC8B] lg:w-[141px] lg:h-[50px] hover:scale-105 hover:cursor-pointer"
             >
               Get Started
