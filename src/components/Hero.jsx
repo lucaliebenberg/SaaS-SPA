@@ -2,7 +2,7 @@ import React from "react";
 import Product1 from "../assets/product1.png";
 import { motion } from "framer-motion";
 
-import { slideIn, fadeIn, textVariant } from "../utils/motion";
+// import { slideIn, fadeIn, textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
