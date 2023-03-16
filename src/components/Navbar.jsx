@@ -22,7 +22,7 @@ const Navbar = () => {
             <img
               src={Onesheet}
               alt="Onesheet Logo"
-              className="w-[210px] hover:cursor-pointer"
+              className="w-[210px] hover:cursor-pointer xl:p-0"
             />
           </h1>
         </motion.div>
