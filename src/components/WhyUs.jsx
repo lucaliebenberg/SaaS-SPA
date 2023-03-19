@@ -31,7 +31,7 @@ const WhyUs = () => {
         <img
           src={Product2}
           alt="Onesheet product 2"
-          className="hover:scale-105 hover:cursor-pointer"
+          className="hover:cursor-pointer"
         />
       </div>
     </div>
