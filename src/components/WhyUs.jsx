@@ -10,7 +10,7 @@ AOS.init();
 const WhyUs = () => {
   return (
     <div id="whyus" className=" h-auto w-full bg-[#56AC8B] overflow-clip">
-      <div className="p-[4rem] lg:p-[5rem]" data-aos="fade-right">
+      <div className="p-[5rem] lg:p-[5rem]" data-aos="fade-right">
         <h1 className="text-[40px] text-center font-bold text-white lg:text-left">
           Why Us
         </h1>
