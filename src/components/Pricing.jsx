@@ -15,7 +15,7 @@ const Pricing = () => {
         <h1 className="text-[40px] font-bold text-center pt-8 text-white">
           Simple pricing
         </h1>
-        <p className="text-[18px] max-w-[20rem] font-light text-center pt-3 text-white m-auto">
+        <p className="text-[18px] max-w-[20rem] lg:max-w-[30rem] xl:max-w-[40rem] font-light text-center pt-3 text-white m-auto">
           Choose the package that aligns with your business needs
         </p>
       </div>
