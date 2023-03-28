@@ -39,28 +39,28 @@ const Footer = () => {
           <a
             href="https://www.facebook.com"
             target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer"
+            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillFacebook size={24} className="mr-3" />
           </a>
           <a
             href="https://www.twitter.com"
             target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer"
+            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillTwitterSquare size={24} className="mr-3" />
           </a>
           <a
             href="https://www.instagram.com"
             target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer"
+            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillInstagram size={24} className="mr-3" />
           </a>
           <a
             href="https://www.linkedin.com"
             target={"_blank"}
-            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer"
+            className="text-[#CCC] font-semibold hover:text-[#55AA8A] hover:scale-105 hover:cursor-pointer hover:transition-all hover:duration-300 hover:ease-in-out"
           >
             <AiFillLinkedin size={24} />
           </a>
