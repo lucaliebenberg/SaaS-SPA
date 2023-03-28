@@ -20,7 +20,7 @@ const Footer = () => {
         <p className="mt-5 max-w-[300px] md:max-w-[384px] lg:max-w-[384px] text-black text-center justify-center text-[16px] ml-auto mr-auto">
           If you’re looking for a kick-ass software company, we’re here to help!
         </p>
-        <button className="w-[134px] h-[40px] rounded-[5px] bg-[#55AA8A] text-white mt-5 ml-auto mr-auto hover:scale-105">
+        <button className="w-[134px] h-[40px] rounded-[5px] bg-[#55AA8A] text-white mt-5 ml-auto mr-auto hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
           <a
             href="mailto:onesheetsolutions@gmail.com"
             target={"_blank"}
