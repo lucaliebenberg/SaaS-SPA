@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <Features />
@@ -19,7 +19,7 @@ const App = () => {
       <Companies />
       <Pricing />
       <Footer />
-    </>
+    </div>
   );
 };
 

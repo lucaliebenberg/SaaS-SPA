@@ -13,7 +13,10 @@ const Hero = () => {
   }, []);
 
   return (
-    <motion.div id="hero" className="w-full h-full pb-5 bg-[#56AC8B]">
+    <motion.div
+      id="hero"
+      className="w-full h-full pb-5 bg-[#56AC8B] overflow-x-hidden"
+    >
       <div className="w-full h-full flex flex-row justify-between align-middle pt-[6rem] lg:pt-[10rem]">
         <motion.div className="flex flex-col pl-[3.3rem] lg:pl-[6rem] lg:pt-8">
           <motion.h1
