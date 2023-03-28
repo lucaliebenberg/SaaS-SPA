@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full h-[60px] bg-[#56AC8B]">
-      <div className="max-w-[1240px] mx-auto px-2 flex justify-between items-center h-full">
+      <div className="px-14 mx-auto flex justify-between items-center h-full">
         <motion.div
           initial={{ x: "-200px" }}
           animate={{ x: 0 }}
