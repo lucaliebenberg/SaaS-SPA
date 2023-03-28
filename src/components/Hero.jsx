@@ -8,7 +8,7 @@ const Hero = () => {
   useEffect(() => {
     controls.start({
       y: [0, 20, 0],
-      transition: { duration: 7, repeat: Infinity },
+      transition: { duration: 5, repeat: Infinity },
     });
   }, []);
 
@@ -25,7 +25,7 @@ const Hero = () => {
             We help you to grow your business to the next level
           </motion.h1>
           <div className="flex flex-row">
-            <div className="hover:scale-105">
+            <div className="hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
               <motion.button
                 initial={{ x: "-200px" }}
                 animate={{ x: 0 }}
@@ -35,7 +35,7 @@ const Hero = () => {
                 <a href="#features">Learn More</a>
               </motion.button>
             </div>
-            <div className="hover:scale-105">
+            <div className="hover:scale-105 hover:transition-all hover:duration-300 hover:ease-in-out">
               <motion.button
                 initial={{ x: "-200px" }}
                 animate={{ x: 0 }}
@@ -50,7 +50,7 @@ const Hero = () => {
         <motion.div
           initial={{ x: "500px" }}
           animate={{ x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
           className="sm: hidden md:hidden lg:inline-flex ml-[5rem] "
         >
           <motion.img
