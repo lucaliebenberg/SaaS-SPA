@@ -16,7 +16,7 @@ const Navbar = () => {
         <motion.div
           initial={{ x: "-200px" }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1 }}
         >
           <h1 className="text-[var(--primary-blue)]">
             <img
@@ -32,7 +32,7 @@ const Navbar = () => {
               href="#features"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.6 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Features
@@ -42,7 +42,7 @@ const Navbar = () => {
               href="#whyus"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 0.7 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Why Us
@@ -52,7 +52,7 @@ const Navbar = () => {
               href="#pricing"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
-              transition={{ duration: 0.7 }}
+              transition={{ duration: 0.8 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Pricing
@@ -62,7 +62,7 @@ const Navbar = () => {
               href="#companies"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.9 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Companies
@@ -72,7 +72,7 @@ const Navbar = () => {
               href="#footer"
               initial={{ x: "500px" }}
               animate={{ x: 0 }}
-              transition={{ duration: 0.9 }}
+              transition={{ duration: 1 }}
             >
               <li className="m-5 hover:cursor-pointer hover:text-[#00FF9D] hover:scale-105">
                 Contact
@@ -85,7 +85,7 @@ const Navbar = () => {
         <motion.div
           initial={{ y: "-200px" }}
           animate={{ y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 1 }}
           className="block md:hidden"
           onClick={handleNav}
         >
