@@ -1,5 +1,6 @@
 import React from "react";
 
+// import logos
 import Company1 from "../assets/company1.png";
 import Company2 from "../assets/company2.png";
 import Company3 from "../assets/company3.png";
