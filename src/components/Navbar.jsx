@@ -101,7 +101,8 @@ const Navbar = () => {
           className={
             nav
               ? "w-[95vw] rounded-md bg-white text-[#56AC8B] absolute top-[50px] left-0 flex justify-center text-center ml-1 mt-2 md:hidden lg:hidden xl:hidden"
-              : "absolute left-[-100%]"
+              : // try 'hidden' instead of below
+                "absolute left-[-100%]"
           }
         >
           <ul>
@@ -131,7 +132,6 @@ const Navbar = () => {
                 Contact
               </li>
             </a>
-            {/* <button className="m-8">Start free trial</button> */}
           </ul>
         </div>
       </div>
